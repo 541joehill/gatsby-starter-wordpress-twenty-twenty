@@ -53,8 +53,11 @@ const post = ({ data }) => {
 
         <div className="post-inner thin">
           <div
-            className="entry-content"
+            className="entry-content rawHTML"
             dangerouslySetInnerHTML={{ __html: rawHTML }}
+          />          
+          <div
+            className="entry-content content"
             dangerouslySetInnerHTML={{ __html: content }}
           />
         </div>
