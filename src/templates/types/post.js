@@ -14,7 +14,7 @@ const post = ({ data }) => {
   const {
     title,
     uri,
-    content,
+    content(format: RENDERED),
     rawHTML,
     featuredImage,
     categories,
