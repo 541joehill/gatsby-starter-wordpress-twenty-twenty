@@ -55,6 +55,7 @@ const post = ({ data }) => {
           <div
             className="entry-content"
             dangerouslySetInnerHTML={{ __html: rawHTML }}
+            dangerouslySetInnerHTML={{ __html: content }}
           />
         </div>
 
