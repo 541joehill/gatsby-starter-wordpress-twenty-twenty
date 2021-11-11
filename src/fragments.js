@@ -53,7 +53,7 @@ export const fragments = graphql`
   fragment PostContent on WpPost {
     title
     uri
-    content
+    content(format: "RENDERED")
     date(formatString: "LL")
     excerpt
     featuredImage {
