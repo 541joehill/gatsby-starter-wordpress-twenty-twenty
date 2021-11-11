@@ -53,7 +53,7 @@ export const fragments = graphql`
   fragment PostContent on WpPost {
     title
     uri
-    rawHTML
+    rawHTMLz
     content
     date(formatString: "LL")
     excerpt
