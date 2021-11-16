@@ -32,7 +32,7 @@ const page = ({ data }) => {
         <div className="post-inner thin">
           <div
             className="entry-content"
-            dangerouslySetInnerHTML={{ __html: content }}
+            dangerouslySetInnerHTML={{ __html: rawHTML }}
           />
         </div>
       </article>
