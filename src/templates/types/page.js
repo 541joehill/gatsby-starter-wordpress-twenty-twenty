@@ -6,7 +6,7 @@ import FeaturedMedia from "../../components/FeaturedMedia"
 
 const page = ({ data }) => {
   const { page } = data
-  const { title, content, featuredImage, excerpt, databaseId, uri } = page
+  const { title, rawHTML, content, featuredImage, excerpt, databaseId, uri } = page
 
   return (
     <Layout
